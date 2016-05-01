@@ -1,5 +1,5 @@
-FROM wurstmeister/storm:0.9.4
-MAINTAINER Wurstmeister
+FROM lintong/storm:1.0.0
+MAINTAINER lintong
 
 EXPOSE 6700
 EXPOSE 6701

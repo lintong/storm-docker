@@ -1,5 +1,5 @@
-FROM wurstmeister/storm:0.9.4
-MAINTAINER Wurstmeister
+FROM lintong/storm:1.0.0
+MAINTAINER lintong
 RUN /usr/bin/config-supervisord.sh ui
 
 EXPOSE 8080
